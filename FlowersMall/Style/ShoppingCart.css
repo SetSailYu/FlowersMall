@@ -1,0 +1,217 @@
+﻿
+
+
+.MO-hint {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+    .MO-hint div {
+        margin: 0 auto;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .MO-hint i {
+        font-size: 300px;
+        color: #ff6a00;
+    }
+
+
+
+.S-MainCont {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    /*background-color: bisque;*/
+    display: table;
+}
+.S-Cart {
+    display: table;
+    width: 1000px;
+    margin-bottom: 30px;
+    border: 1px solid #d9d9d9;
+}
+.S-title {
+    position: relative;
+    margin-bottom: -1px;
+    display: table;
+    width: 1000px;
+    height: 40px;
+    font-size: 17px;
+    font: bold;
+    padding: 2px 0;
+    list-style: none;
+    line-height: 40px;
+    background-color: #EBEBEB;
+    font-family: tahoma, arial, 'Hiragino Sans GB', '\5FAE\8F6F\96C5\9ED1', sans-serif;
+}
+
+.S-title-1 {
+    margin-left: 250px;
+}
+.S-title-2 {
+    margin-left: 260px;
+}
+.S-title-3 {
+    margin-left: 120px;
+}
+.S-title-4 {
+    margin-left: 90px;
+}
+.S-order-list {
+    display: flex;
+    font-size: 14px;
+    margin-left: 80px;
+    margin-right: 50px;
+    padding: 15px 0;
+    list-style: none;
+    line-height: 20px;
+    border-top: 1px dotted #737373;
+}
+.S-selecter {
+    width: 36px;
+    height: 88px;
+    line-height: 92px;
+    text-align: left;
+    cursor: pointer;
+}
+.S-img-box {
+    margin-left: 20px;
+    width: 100px;
+}
+    .S-img-box img {
+        width: 80px;
+        height: 88px;
+    }
+
+.S-product {
+    margin-left: 20px;
+    width: 332px;
+    padding: 24px 0;
+}
+
+    .S-product span {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        line-height: 40px;
+        display: block;
+    }
+
+.S-order-price {
+    width: 120px;
+    padding: 0;
+    line-height: 88px;
+    color: #232628;
+    font-weight: normal;
+}
+.S-price-sign {
+    font-family: arial;
+    margin-right: -4px;
+}
+.S-price-num {
+    font-family: arial,Verdana,Arial;
+}
+.S-num {
+    width: 120px;
+    margin: 32px 0;
+    text-align: center;
+}
+    .S-num .S-form-control {
+        display: inline-block;
+        width: 40px;
+        height: 24px;
+        border-color: #d9d9d9;
+        padding: 6px;
+        border-radius: 0;
+        box-shadow: none;
+        font-size: 12px;
+        line-height: 1.5;
+    }
+.S-operate {
+    width: 120px;
+    font-size: 12px;
+    line-height: 88px;
+    text-align: center;
+}
+.S-active {
+    width: 20px;
+    height: 20px;
+    margin-top: 34px;
+}
+
+
+
+.S-contbottom {
+    display: table;
+    width: 1000px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+.S-set-info {
+    font-size: 12px;
+    line-height: 52px;
+    float: left;
+    width: 880px;
+    height: 52px;
+    padding: 0 20px;
+    border: 1px solid #d9d9d9;
+    border-right: 0;
+}
+    .S-set-info:before,
+    .S-set-info:after {
+        content: " ";
+        display: table;
+    }
+    .S-back {
+        width: 90px;
+        float: left;
+    }
+    .S-back:link {
+        color: #737373;
+    }
+    .S-back:visited {
+        color: #737373;
+    }
+    .S-back:hover {
+        color: #ff6a00;
+    }
+.S-set-stat {
+    float: right;
+}
+.S-price {
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    color: #ff6a00;
+}
+.S-price-sign {
+    font-family: arial;
+    margin-right: -4px;
+}
+.S-price-num {
+    font-family: arial,Verdana,Arial;
+}
+
+.S-btn {
+    font-family: tahoma, arial, 'Hiragino Sans GB', '\5FAE\8F6F\96C5\9ED1', sans-serif;
+    font-weight: bold;
+    float: right;
+    width: 120px;
+    height: 52px;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    color: #ffffff;
+    background-color: #ff6a00;
+    border-color: #ff6a00;
+    cursor: pointer; /*手 光标形状*/
+}
+    .S-btn:hover {
+        color: #ffffff;
+        background-color: #f56600;
+        border: 1px solid #f56600;
+    }

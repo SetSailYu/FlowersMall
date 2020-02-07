@@ -1,0 +1,745 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    font: "Microsoft YaHei",tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.42857143;
+    color: #737373;
+}
+
+ul,li {
+    display: block;
+}
+
+a {
+    /*color: #737373;*/
+    text-decoration: none; /*消除下划线*/
+    cursor: pointer; /*手 光标形状*/
+    background-color: transparent;
+}
+    a:link {text-decoration: none;}
+    a:visited {text-decoration: none;}
+    a:hover {color: #FF6A00;}
+
+/*---------------------------------- 右侧链接 ----------------start----------------------------------------*/
+.M-R-link {
+    position: fixed;
+    right: 0;
+    width: 35px;
+    height: 100%;
+    z-index: 1000;
+    text-align: center;
+}
+.M-R-con {
+    position: absolute;
+    margin: 0 auto;
+    width: 35px;
+    height: 100%;
+    
+    background-color: #595656;
+}
+    .M-R-con a {
+        font-size: 12px;
+        position: relative;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        display: block;
+        overflow: hidden;
+        width: 36px;
+        padding: 0;
+        text-decoration: none;
+    }
+.M-R-quick-link {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -190px;
+    /*background-color: red;*/
+    width: 34px;
+    height: 300px;
+    /*display: block;*/
+}
+    .M-R-quick-link a.M-message_list {
+        line-height: 18px;
+        height: 133px;
+        margin: 10px 0;
+        color: #fff;
+        background: url(//img02.hua.com/pc/assets/img/mbar/ibar_sprites.png) no-repeat;
+        background-position: -36px -216px;
+    }
+.M-R-con li {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    margin-top: 10px;
+    color: aliceblue;
+}
+    .M-R-con li:hover {
+        background-color: #FF6A00;
+    }
+    .M-R-con a:link {
+        color: aliceblue;
+    }
+    .M-R-con a:visited {
+        color: aliceblue;
+    }
+.M-R-con a:hover {
+    color: aliceblue;
+}
+.M-R-con i {
+    font-size: 20px;
+}
+    .M-R-quick-link a.M-message_list .M-cart_num {
+        line-height: 21px;
+        display: block;
+        width: 21px;
+        height: 21px;
+        margin: 9px 0 0 8px;
+        cursor: pointer;
+        text-align: center;
+        color: #fff;
+        border-radius: 50%;
+        background: #ff6600;
+    }
+.M-R-con-bottom {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    width: 36px;
+}
+/*---------------------------------- 右侧链接 ----------------end----------------------------------------*/
+/*---------------------------------- 顶部导航 ---------------start----------------------------------------*/
+.M-top {
+    width: 100%;
+    min-width: 1200px;
+    height: 35px;
+    font-size: 11px;
+    line-height: 35px;
+    border-bottom: 1px solid #E6E6E6;
+    background-color: #F2F2F2;
+    color: #737373;
+}
+    .M-top i {
+        color: #FFB680;
+        font-size: 18px;
+    }
+    .M-top li {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .M-top a:link {
+        color: #737373;
+    }
+    .M-top a:visited {
+        color: #737373;
+    }
+    .M-top a:hover {
+        color: #FF6A00;
+    }
+.container {
+    width: 1200px;
+    max-width: none !important;
+    padding-right: 0;
+    padding-left: 0;
+    margin: 0 auto;
+    background-color: orangered;
+}
+.M-top .M-top-l {
+    float: left;
+}
+.M-top ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.M-top-r li {
+    display: inline-block;
+    word-spacing: 0;
+}
+.M-top-r i {
+    color: #FF6A00;
+}
+    .M-top .M-top-r {
+        float: right;
+    }
+    .M-top ul .menu {
+        line-height: 34px;
+        display: block;
+        float: left;
+    }
+.M-top ul .dropdown {
+    position: relative;
+}
+.M-top ul .login {
+    padding-right: 6px;
+}
+.M-top ul .M-top-pipe {
+    float: left;
+    overflow: hidden;
+    width: 1px;
+    height: 12px;
+    margin: 11px 4px;
+    padding: 0;
+    background-color: #d9d9d9;
+}
+.M-top ul .slogan {
+    margin-left: 5px;
+}
+
+/*---------------------------------- 顶部导航 ----------------end----------------------------------------*/
+
+
+
+/*---------------------------------- 头部 --------------------start----------------------------------------*/
+header {
+    height: 120px;
+    width: 1200px;
+    margin: 0 auto;
+    /*background-color: red;*/
+}
+.M-top-logo {
+    position: relative;
+    width: 240px;
+    height: 60px;
+    /*background-color: bisque;*/
+    top: 30px;
+    line-height: 70px;
+}
+    .M-top-logo i {
+        font-size: 70px;
+        font: bold;
+        margin-left: 70px;
+        
+    }
+    .M-top-logo a {
+        color: #FF6A00;
+    }
+    .M-top-ss {
+        position: relative;
+        left: 500px;
+        top: -60px;
+        width: 320px;
+        height: 100%;
+        /*background-color: aqua;*/
+    }
+    .M-top-ss p {
+        position: absolute;
+        top: 88px;
+        font-size: 9px;
+        font-weight: 100;
+    }
+    .ss-box {
+        position: absolute;
+        top: 50px;
+        width: 239px;
+        height: 34px;
+        border: 1px solid #FF6A00;
+    }
+.ss-textbox {
+    margin-top: 3px;
+    margin-left: 5px;
+    width: 230px;
+    height: 27px;
+    outline: medium; /*取消TextBox框选中之后的边框高亮*/
+}
+.ss-but {
+    position: absolute;
+    width: 81px;
+    height: 34px;
+    top: 50px;
+    right: 0;
+    background-color: #FF6A00;
+    color: white;
+    text-align: center;
+    line-height: 34px;
+    font-size: 18px;
+    font: bold;
+    cursor: pointer; /*手 光标形状*/
+}
+.M-top-lx {
+    position: relative;
+    right: -840px;
+    top: -150px;
+    width: 360px;
+    height: 50px;
+    text-align: right;
+    line-height: 50px;
+    /*background-color: brown ;*/
+}
+    .M-top-lx i {
+        color: #FF6A00;
+        font-size: 25px;
+        margin-right: 5px;
+    }
+/*---------------------------------- 头部 --------------------end----------------------------------------*/
+/*---------------------------------- 中间主要内容区 ----------------start----------------------------------------*/
+.M-content {
+    width: 100%;
+    /*height: 500px;*/
+    float: left;
+}
+/*----- 导航栏 -------start----------*/
+.M-nav {
+    min-width: 1200px;
+    height: 41px;
+    border-bottom: 3px solid #ff6a00;
+}
+    .M-nav .nav-con {
+        position: relative;
+        width: 1200px;
+        margin: 0 auto;
+        max-width: none !important;
+        padding-right: 0;
+        padding-left: 0;
+        /*background-color: black;*/
+    }
+.categorys {
+    width: 230px;
+    height: 40px;
+    float: left;
+}
+    .M-nav .categorys-title {
+        font-family: tahoma, arial, 'Hiragino Sans GB', '\5FAE\8F6F\96C5\9ED1', sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+        line-height: 40px;
+        display: block;
+        margin: 0 0 -5px;
+        padding: 0 15px;
+        background-color: #FF6A00;
+    }
+    .M-nav .categorys .dropdown-cate {
+        position: absolute;
+        z-index: 999;
+        top: 40px;
+        left: 0;
+        width: 230px;
+    }
+.dropdown-cate a:link {
+    color: #737373;
+}
+.dropdown-cate a:visited {
+    color: #737373;
+}
+.dropdown-cate a:hover {
+    color: #ff6a00;
+}
+.M-Flo-dro {
+    display: none;
+}
+.categorys-title a {
+    color: #fff;
+}
+.categorys .dropdown-cate {
+    height: 440px;
+    padding: 10px 15px 0;
+    border-bottom: 3px solid #ff6a00;
+    background-color: #fff;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.175);
+}
+.dropdown-cate {
+    position: absolute;
+    z-index: 999;
+    top: 41px;
+    left: 0;
+    width: 230px;
+    height: 440px;
+    padding: 10px 15px 0;
+    border-bottom: 3px solid #ff6a00;
+    background-color: #fff;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.175);
+    z-index: 1000;
+}
+    .dropdown-cate h4, .cate-cake > a {
+        font-family: tahoma, arial, 'Hiragino Sans GB', '\5FAE\8F6F\96C5\9ED1', sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        margin: 0 0 6px;
+        padding: 0;
+        color: #ff6a00;
+    }
+    .dropdown-cate ul {
+        margin: 0 0 8px;
+        padding: 0 0 8px;
+        list-style: none;
+        border-bottom: 1px solid #e9e9e9;
+    }
+    .dropdown-cate li {
+        font-size: 12px;
+        line-height: 22px;
+        margin-right: 10px;
+        padding: 0;
+        display: inline-block;
+    }
+.cate-cake {
+    margin: -9px -15px 0 -15px;
+}
+    .cate-cake i {
+        color: #FF6A00;
+        font-size: 20px;
+    }
+    .cate-cake > a {
+        height: 30px;
+        margin: 0 0 2px;
+        padding: 8px 15px;
+    }
+    .cate-cake > a {
+        display: block;
+        height: 40px;
+        padding: 12px 15px;
+        border-top: 1px solid transparent;
+        color: #ff6a00;
+    }
+    .cate-cake span {
+        /*float: right;*/
+        position: relative;
+        top: 1px;
+        display: inline-block;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+    }
+.open {
+    box-shadow: 10px 0 10px 0 rgba(0, 0, 0, 0.175);
+    border-right: 2px solid white;
+}
+.M-baffle1, .M-baffle2 {
+    position: absolute;
+    top: 202px;
+    right: 0;
+    width: 5px;
+    height: 97px;
+    background-color: white;
+    z-index: 1001;
+    display: none;
+}
+.M-baffle2 {
+    top: 298px;
+    height: 120px;
+}
+     .right-menu {
+        font-size: 12px;
+        font-weight: normal;
+        position: absolute;
+        top: 0px;
+        float: left;
+        width: 730px;
+        height: 440px;
+        margin-left: 229px;
+        padding: 15px;
+        border: none;
+        background-color: #fff;
+        border-radius: 0;
+        box-shadow: 0 1px 2px 2px rgba(0, 0, 0, 0.175);
+        z-index: 1000;
+    }
+        .right-menu .link-img {
+            margin-bottom: 20px;
+        }
+        .right-menu h5 {
+            font-family: tahoma, arial, 'Hiragino Sans GB', '\5FAE\8F6F\96C5\9ED1', sans-serif;
+            font-size: 12px;
+            font-weight: bold;
+            margin-top: 0;
+            margin-bottom: 12px;
+            padding-left: 8px;
+            color: #707070;
+            border-left: 2px solid #707070;
+        }
+            .link-img a {
+                position: relative;
+                z-index: 9;
+                display: block;
+                float: left;
+                width: 98px;
+                height: 92px;
+                margin-right: -1px;
+                text-align: center;
+                margin-bottom: 10px;
+                border: 1px solid #e5e5e5;
+                line-height: 20px;
+                box-shadow: none;
+            }
+                .link-img a:link {
+                    border: 1px solid #e5e5e5;
+                }
+                .link-img a:visited {
+                    border: 1px solid #e5e5e5;
+                }
+                .link-img a:hover {
+                    border: 1px solid #CCCCCC;
+                }
+                .link-img a img {
+                    display: block;
+                    margin: 0 auto;
+                }
+    .cate-cake ul {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .nav {
+        font-size: 15px;
+        margin: 0 0 0 230px;
+        padding-left: 0;
+        list-style: none;
+    }
+    .nav > li {
+        float: left;
+        position: relative;
+        display: block;
+    }
+        .nav > li:hover {
+            box-shadow: 0 1px 2px 2px rgba(0, 0, 0, 0.175);
+            /*border: 1px solid rgba(0, 0, 0, 0.175);*/
+            border-radius: 5px;
+            /*圆角的边框*/
+        }
+        .nav > li > a:link {
+            color: #4D4D4D;
+        }
+        .nav > li > a:visited {
+            color: #4D4D4D;
+        }
+        .nav > li > a:hover {
+            color: #FF6A00;
+        }
+        .M-nav .nav > li > a {
+            padding: 9px 22px;
+            font-weight: bold;
+            position: relative;
+            display: block;
+        }
+/*----- 导航栏 -------end----------*/
+/*----- 主要内容编辑区 -------start----------*/
+.M-content-con {
+    float: left;
+    width: 100%;
+    /*background-color: black;*/
+}
+/*----- 主要内容编辑区 -------end----------*/
+/*---------------------------------- 中间主要内容区 ----------------end----------------------------------------*/
+
+
+
+/*---------------------------------- 动态轮播图区 --------------- start ----------------------------------------*/
+.slideshow {
+    width: 100%;
+    min-width: 1200px;
+    height: 440px;
+    margin-bottom: 30px;
+    /*background-color: red;*/
+}
+.FF-slideshow {
+    width: 100%;
+    height: 440px;
+    margin-bottom: 30px;
+}
+.center-left-img {
+    height: 440px;
+    position: relative;
+    overflow: hidden;
+    /*内容溢出修剪 */
+}
+/*--------------------- 图片盒子 ------- start ---------*/
+.imgBox {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.img-slide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.slide-img-active {
+    animation: slide 5s 1;
+}
+
+.slide-img-out {
+    opacity: 0;
+}
+
+@keyframes slide {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+/*--------------------- 图片盒子 ------- end ---------*/
+/*--------------------- 浮动圆点 ------- start ---------*/
+.dot {
+    position: absolute;
+    display: block;
+    width: 150px;
+    /*right: 5px;*/
+    left: 44%;
+    bottom: 15px;
+    z-index: 999;
+    font-size: 25px;
+}
+
+    .dot div {
+        float: left;
+        width: 15px;
+        margin-right: 15px;
+    }
+
+.dot1 {
+    color: #FF6600;
+}
+
+.dot2, .dot3, .dot4, .dot5 {
+    color: rgba(0, 0, 0, 0.175);
+}
+
+.dot i {
+    cursor: pointer;
+    /*手 光标形状*/
+}
+    /*鼠标悬停*/
+    .dot i:hover {
+        color: #FF6600;
+    }
+/*--------------------- 浮动圆点 ------- end ---------*/
+/*--------------------- 切换箭头 ------- start ---------*/
+.switcher-div {
+    position: relative;
+    margin: 0 auto;
+    width: 1200px;
+    height: 440px;
+    pointer-events: none;
+    /*允许点击穿透*/
+}
+
+.switcher {
+    position: absolute;
+    top: 200px;
+    color: #8A8A8A;
+    margin: 0 auto;
+    cursor: pointer;
+    /*手 光标形状*/
+    z-index: 999;
+    font-size: 40px;
+    font: bold;
+    pointer-events: auto; /*不允许点击穿透*/
+    -webkit-text-stroke: 2px rgba(0, 0, 0, 0.175);
+}
+
+.s-left, .FF-s-left {
+    left: 250px;
+    color: transparent;
+    transform: rotate(180deg);
+    /*箭头文字180度旋转*/
+    -ms-transform: rotate(180deg);
+    /* Internet Explorer 9*/
+    -moz-transform: rotate(180deg);
+    /* Firefox */
+    -webkit-transform: rotate(180deg);
+    /* Safari 和 Chrome */
+    -o-transform: rotate(180deg);
+    /* Opera */
+}
+.FF-s-left {
+    left: 10px;
+}
+    .s-right, .FF-s-right {
+        right: 250px;
+        color: transparent;
+    }
+.FF-s-right {
+    right: 245px;
+}
+        /*鼠标悬停*/
+    .s-left:hover,
+    .s-right:hover,
+    .FF-s-left:hover,
+    .FF-s-right:hover {
+        color: white;
+    }
+/*--------------------- 切换箭头 ------- end ---------*/
+/*--------------------- 右侧推荐 ------- start ---------*/
+.I-right-recommend {
+    position: relative;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+    .I-right-recommend .I-recommend-bd {
+        position: absolute;
+        display: block;
+        top: -430px;
+        right: 0px;
+        width: 210px;
+        height: 422px;
+        -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.175);
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.175);
+        z-index: 999;
+    }
+
+.I-recommend-bd a {
+    position: relative;
+    display: block;
+    width: 210px;
+    height: 141px;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.I-recommend-bd td:hover {
+    border-right: 5px solid rgba(0, 0, 0, 0);
+    border-left: 5px solid rgba(0, 0, 0, 0);
+}
+
+.I-recommend-bd .I-rightbox {
+    top: 50px;
+    left: 20px;
+}
+
+.I-rightbox .I-rightbox-name {
+    font-size: 15px;
+    line-height: 19px;
+}
+
+.I-rightbox .I-rightbox-price {
+    font-size: 17px;
+    line-height: 23px;
+}
+/*--------------------- 右侧推荐 ------- end ---------*/
+/*---------------------------------- 动态轮播图区 --------------- end ----------------------------------------*/
+
+
+
+
+/*---------------------------------- 底部信息栏 ----------------start----------------------------------------*/
+.M-bottom {
+    float: left;
+    width: 100%;
+    min-width: 1200px;
+    height: 400px;
+    margin-top: 5px;
+    background-color: powderblue;
+}
+/*---------------------------------- 底部信息栏 ----------------end----------------------------------------*/
+
+
+
+
+
+

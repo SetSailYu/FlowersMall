@@ -1,0 +1,159 @@
+﻿
+
+.F-top {
+    width: 1200px;
+    height: 440px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.F-RightTop {
+    float: right;
+    width: 970px;
+    /*background-color: royalblue;*/
+}
+
+.F-MinCon {
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+/*------------------ 筛选 ------- start ----------------*/
+.F-filterbar {
+    height: 32px;
+    margin-bottom: 20px;
+    padding: 0 10px;
+    background-color: #ebebeb;
+}
+    .F-filterbar .F-filter-items {
+        font-family: tahoma, arial, 'Hiragino Sans GB', '\5FAE\8F6F\96C5\9ED1', sans-serif;
+        line-height: 32px;
+        float: left;
+        padding-left: 0;
+        list-style: none;
+        margin-left: -5px;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+.F-filter-items > li {
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 0 8px;
+}
+
+.F-classify-box {
+    width: 100px;
+    border: none;
+    font-family: tahoma, arial, 'Hiragino Sans GB', '\5FAE\8F6F\96C5\9ED1', sans-serif;
+    font-size: 15px;
+    color: #ff6a00;
+}
+.F-filter-items i {
+    display: inline-block;
+}
+.re {
+    transform: rotate(180deg);
+    -ms-transform: rotate(180deg); /* Internet Explorer 9*/
+    -moz-transform: rotate(180deg); /* Firefox */
+    -webkit-transform: rotate(180deg); /* Safari 和 Chrome */
+    -o-transform: rotate(180deg); /* Opera */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+}
+.F-filter-items a:link {
+    color: #4D4D4D;
+}
+.F-filter-items a:visited {
+    color: #4D4D4D;
+}
+.F-filter-items a:hover {
+    color: #FF6A00;
+}
+/*------------------ 筛选 ------- end ----------------*/
+/*------------------ 显示商品 ------- start ----------------*/
+.F-ShowCommodity {
+    margin-bottom: 20px;
+}
+.F-Show-title a:link {
+    color: #4D4D4D;
+}
+.F-Show-title a:visited {
+    color: #4D4D4D;
+}
+.F-Show-title a:hover {
+    color: #FF6A00;
+}
+.F-ShowCommodity-list td {
+    float: left;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid transparent;
+    background-color: #fff;
+}
+    .F-ShowCommodity-list td:hover {
+        border: 1px solid #CCCCCC;
+    }
+    .F-ShowCommodity-list .F-Show-grid {
+        width: 218px;
+    }
+.F-Show-img-box {
+    position: relative;
+    overflow: hidden;
+    width: 218px;
+    height: 240px;
+    margin-bottom: 10px;
+}
+.F-Show-img-box img {
+    width: 218px;
+    height: 240px;
+}
+.F-Show-price {
+    margin-bottom: 8px;
+    color: #ff6a00;
+}
+.F-Show-price-sign {
+    font-weight: 800;
+    font-family: arial;
+    margin-right: -4px;
+}
+.F-Show-price-num {
+    font-weight: 700;
+    line-height: 18px;
+    margin-right: 10px;
+    font-family: arial,Verdana,Arial;
+}
+.F-Show-title {
+    font-size: 12px;
+    line-height: 18px;
+    overflow: hidden;
+    height: 36px;
+    margin-bottom: 8px;
+    text-align: justify;
+}
+.F-Show-name-title {
+    font-size: 12px;
+    display: block;
+    max-width: 220px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.F-Show-language {
+    font-size: 12px;
+    display: block;
+    color: #ff6a00;
+}
+.F-Show-operate {
+    width: 107px;
+    margin: 0 auto;
+    margin-left: 50px;
+    color: #000000;
+    font-size: 12px;
+    display: inline-block;
+    width: 107px;
+    padding: 4px 0;
+    text-align: center;
+    border: 1px solid #d9d9d9;
+}
+/*------------------ 显示商品 ------- end ----------------*/
+

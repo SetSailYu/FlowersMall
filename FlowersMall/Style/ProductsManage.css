@@ -1,0 +1,132 @@
+﻿
+
+/*---------------------------------- 导航栏 ---------------- start ----------------------------------------*/
+.P-navigation {
+    width: 100%;
+    border-bottom: 3px solid #FF6A00;
+}
+
+.P-nav {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    max-width: none !important;
+    padding-right: 0;
+    padding-left: 0;
+    font-family: tahoma, arial, 'Hiragino Sans GB', '\5FAE\8F6F\96C5\9ED1', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 40px;
+    display: block;
+    padding: 0 15px;
+    display: flex;
+}
+
+    .P-nav div {
+        flex-direction: row;
+        width: 200px;
+        height: 40px;
+        text-align: center;
+    }
+
+        .P-nav div:hover {
+            box-shadow: 0 1px 2px 2px rgba(0, 0, 0, 0.175);
+            /*border: 1px solid rgba(0, 0, 0, 0.175);*/
+            border-radius: 5px;
+            /*圆角的边框*/
+        }
+    .P-nav a:link {
+        color: #737373;
+    }
+    .P-nav a:visited {
+        color: #737373;
+    }
+    .P-nav a:hover {
+        color: #FF6A00;
+    }
+/*---------------------------------- 导航栏 ---------------- end ----------------------------------------*/
+
+/*---------------------------------- 主内容区 ---------------- start ----------------------------------------*/
+.P-content {
+    display: flex;
+    width: 1600px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+/*--------- 左侧 ----- start ----------*/
+.P-con-left {
+    flex-direction: row;
+    width: 195px;
+    margin-right: 5px;
+    font-family: tahoma, arial, 'Hiragino Sans GB', '\5FAE\8F6F\96C5\9ED1', sans-serif;
+    /*background-color: #FFB6C1;*/
+    border-right: 1px solid #cccccc;
+}
+.P-con-left-tite {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+    font: bold;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    background-color: #FFB6C1;
+}
+.P-con-left-item {
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e9e9e9;
+}
+    .P-con-left-item span {
+        font-size: 16px;
+        font: bold;
+        color: black;
+        margin-left: 10px;
+        line-height: 36px;
+    }
+    .P-con-left-item p {
+        margin-top: 5px;
+        font-size: 14px;
+        margin-left: 48px;
+    }
+    .P-con-left-item a:link {
+        color: #737373;
+    }
+    .P-con-left-item a:visited {
+        color: #737373;
+    }
+    .P-con-left-item a:hover {
+        color: #FF6A00;
+    }
+/*--------- 左侧 ----- end ----------*/
+/*--------- 右侧 ----- start ----------*/
+.P-con-right {
+    flex-direction: row;
+    width: 1300px;
+    /*background-color: red;*/
+}
+.ContentPlaceHolder3GridView1Row {
+    height: 30px;
+}
+p, .ContentPlaceHolder3GridView1Row {
+    text-align: center;
+}
+#ContentPlaceHolder3_GridView1 {
+    width: 100%;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+table {
+    text-align: center;
+}
+    table img {
+        width: 100px;
+        height: 130px;
+    }
+/*--------- 右侧 ----- end ----------*/
+/*---------------------------------- 主内容区 ---------------- end ----------------------------------------*/
+
+

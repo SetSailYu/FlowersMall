@@ -1,0 +1,41 @@
+﻿
+
+
+.P-MainCont {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    /*background-color: bisque;*/
+    display: table;
+}
+
+.P-Cart {
+    display: table;
+    width: 1000px;
+    margin-bottom: 30px;
+    border: 1px solid #d9d9d9;
+}
+
+.P-title {
+    display: table;
+    width: 1000px;
+    height: 40px;
+    font-size: 17px;
+    font: bold;
+    padding: 2px 0;
+    list-style: none;
+    line-height: 40px;
+    background-color: #EBEBEB;
+    font-family: tahoma, arial, 'Hiragino Sans GB', '\5FAE\8F6F\96C5\9ED1', sans-serif;
+}
+
+.P-itmes {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    border-bottom: 1px dashed #808080;
+}
+
+
+

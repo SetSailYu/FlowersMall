@@ -1,0 +1,119 @@
+﻿body {
+}
+.message_Main {
+    width:100%;
+    height:1500px;
+    background-color:white;
+        
+}
+.message_N {
+    margin-left: 30%;
+    margin-top: 2%;
+    width: 950px;
+    height: 1200px;
+    background-color: #F7F9FA;
+    padding: 36px 88px 54px;
+}
+.wrapper-title {
+    font-size: 0;
+    color: #232628;
+    background-color: #F7F9FA;
+}
+    .wrapper-title h3 {
+        display: inline-block;
+        width: 50%;
+        font-size: 22px;
+        background-color: #F7F9FA;
+    }
+    .wrapper-title p {
+        display: inline-block;
+        width: 50%;
+        font-size: 12px;
+        text-align: right;
+    
+        float: right;
+    }
+.List_message {
+    padding: 20px 52px 0;
+    border: 1px solid #E9ECF0;
+    background-color: #fff;
+}
+.message_N1 {
+    background-color: #F7F9FA;
+    padding: 36px 88px 54px;
+}
+.message_box {
+ 
+    width:500px;
+    height:100px;
+}
+.mess_name {
+   
+    float: left;
+    width: 75px;
+    height: 17px;
+}
+.mess_text {
+
+    margin-left: 75px;
+    height: 80px;
+}
+.mess_time {
+
+    padding-left:340px;
+
+}
+.mess_time1 {
+
+
+}
+.mess_buton {
+
+    margin-left:485px;
+}
+.mess_buton1 {
+    background-color: orange;
+    color: white;
+    border-radius: 30px;
+    width: 100px;
+    height: 40px;
+    cursor: pointer; /*手 光标形状*/
+}
+.say {
+margin-left:120px;
+font-size:13px;
+}
+
+.result {
+    width:100%;
+    background-color:white;
+     height:700px;
+     padding :1px 5% 50% 23%;
+}
+.result_1 {
+    background-color: white;
+    width: 600px;
+    height: 400px;
+    padding: 10%;
+}
+.result_2 {
+    background-color: white;
+    width: 600px;
+}
+.result_user {
+    background-color: white;
+    margin-left: 15%
+}
+.result_text {
+    background-color: white;
+    margin-left: 16%
+}
+.result_buton {
+    padding-left:42%;
+    padding-top:3%;
+}
+.result_btn {
+    background-color: white;
+    letter-spacing: 5px;
+    padding:10px;
+}

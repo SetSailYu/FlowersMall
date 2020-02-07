@@ -1,0 +1,382 @@
+﻿
+
+li {
+    display: list-item;
+}
+
+
+/*---------------------------------- 主内容区 --------------- start ----------------------------------------*/
+.I-con {
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+/*---------------------------------- 服务 --------------- start -------------*/
+.I-toper-server {
+    padding-bottom: 50px;
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+    .I-toper-server ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+        .I-toper-server ul li:first-child {
+            margin-left: 10px;
+        }
+        .I-toper-server ul li {
+            display: block;
+            float: left;
+            height: 40px;
+            margin: 0 29px;
+        }
+            .I-toper-server ul li:last-child {
+                margin-right: 0;
+            }
+            .I-toper-server ul li i {
+                float: left;
+                font-size: 40px;
+                font: bold;
+                color: #FF6A00;
+                line-height: 57px; 
+            }
+            .I-toper-server ul li h4 {
+                font-family: tahoma, arial, 'Hiragino Sans GB', '\5FAE\8F6F\96C5\9ED1', sans-serif;
+                font-size: 16px;
+                margin: 0 0 5px 50px;
+                color: #4d4d4d;
+            }
+            .I-toper-server ul li p {
+                font-size: 12px;
+                margin-bottom: 0;
+                margin-left: 50px;
+                color: #999999;
+            }
+/*---------------------------------- 服务 --------------- end -------------*/
+/*---------------------------------- 限时推荐 --------------- start -------------*/
+.I-time-limit {
+    height: 200px;
+    margin-bottom: 40px;
+}
+    .I-time-limit .I-title {
+        font-family: tahoma, arial, 'Hiragino Sans GB', '\5FAE\8F6F\96C5\9ED1', sans-serif;
+        font-size: 24px;
+        float: left;
+        width: 231px;
+        height: 200px;
+        text-align: center;
+        color: #fff;
+        background-color: #aacc03;
+    }
+        .I-time-limit .I-title i {
+            display: block;
+            margin: 10px auto 0px;
+            font-size: 90px;
+            font: bold;
+        }
+    .I-time-limit .I-product-list {
+        float: left;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+        .I-time-limit .I-product-list td {
+            position: relative;
+            z-index: 9;
+            float: left;
+            overflow: hidden;
+            width: 240px;
+            height: 200px;
+            /*margin-right: -1px;*/
+            border: 1px solid #e5e5e5;
+            background-color: #fff;
+        }
+            .I-time-limit .I-product-list td:hover {
+                border: 1px solid #FF6A00;
+            }
+    .I-time-limit .I-comic-choose {
+        float: left;
+        overflow: hidden;
+        width: 249px;
+        height: 200px;
+        text-align: center;
+    }
+        .I-time-limit .I-comic-choose img {
+            vertical-align: middle;
+            display: inline-block;
+            width: 250px;
+            height: 200px;
+            margin: 0px;
+            transition: width 0.5s, height 0.5s, margin 0.5s;
+            /*-moz-transition: width 2s, height 2s, -moz-margin 2s;
+            -webkit-transition: width 2s, height 2s, -webkit-margin 2s;
+            -o-transition: width 2s, height 2s,-o-margin 2s;*/
+        }
+            .I-time-limit .I-comic-choose img:hover {
+                width: 270px;
+                height: 216px;
+                margin: -10px 0px 0px -8px;
+            }
+    .I-time-limit p {margin: 0;}
+.I-product-list img {
+    float: right;
+    width: 132px;
+    height: 198px;
+}
+.I-time-limit .I-recommend, .I-recommend-bd .I-rightbox {
+    position: absolute;
+    color: #232628;
+    font-family: PingFangSC, tahoma, arial, 'Hiragino Sans GB', '\5FAE\8F6F\96C5\9ED1', sans-serif;
+}
+.I-time-limit .I-recommend {
+    top: 105px;
+    left: 8px;
+}
+.I-time-limit .I-recommend-name {
+    font-size: 14px;
+    line-height: 18px;
+}
+.I-time-limit .I-recommend-price {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: bold;
+    font-family: DINAlternate-Bold;
+}
+.I-time-limit .I-recommend-discount {
+    font-size: 12px;
+    padding: 0 6px;
+    color: #ff6600;
+    line-height: 22px;
+    height: 24px;
+    border: 1px solid #ff6600;
+    border-radius: 12px;
+}
+/*---------------------------------- 限时推荐 --------------- end -------------*/
+/*---------------------------------- 专区模板 --------------- start -------------*/
+.I-floor {
+    height: 735px;
+    margin-bottom: 40px;
+}
+/*--------------------- 专区标题 ------- start -----------------*/
+    .I-floor .I-hd {
+        margin: 0 10px 15px;
+        position: relative;
+    }
+        .I-floor .I-hd .I-more {
+            font-size: 12px;
+            left: 22px;
+            float: right;
+            margin-top: 6px;
+        }
+        .I-floor .I-hd h3 {
+            font-family: tahoma, arial, 'Hiragino Sans GB', '\5FAE\8F6F\96C5\9ED1', sans-serif;
+            font-size: 20px;
+            margin: 0;
+            font-weight: 500;
+        }
+            .I-floor .I-hd h3 span {
+                font-size: 14px;
+                font-family: tahoma, arial, 'Hiragino Sans GB', '\5FAE\8F6F\96C5\9ED1', sans-serif;
+                margin-left: 20px;
+            }
+.I-hd a:link {
+    color: #737373;
+}
+.I-hd a:visited {
+    color: #737373;
+}
+.I-hd a:hover {
+    color: #FF6A00;
+}
+/*--------------------- 专区标题 ------- end -----------------*/
+/*--------------------- 专区内容 ------- start -----------------*/
+.I-floor .I-bd:before {
+    content: " ";
+    display: block;
+}
+/*------------- 专区内容左侧 ------- start ---------*/
+    .I-floor .I-bd .I-bd-1 {
+        /*background-color: #ffc0bb;*/
+        height: 690px;
+        position: relative;
+        float: left;
+        width: 243px;
+    }
+.I-f1 {
+    background-color: #ffc0bb;
+}
+.I-f2 {
+    background-color: #c2acd1;
+}
+.I-f3 {
+    background-color: #d6d8ec;
+}
+.I-f4 {
+    background-color: #F9C791;
+}
+.I-bd-1 img {
+    height: 438px;
+    width: 243px;
+    display: inline;
+}
+.I-bd-1 .I-banner-link {
+    font-family: tahoma, arial, 'Hiragino Sans GB', '\5FAE\8F6F\96C5\9ED1', sans-serif;
+    font-size: 18px;
+    line-height: 48px;
+    display: block;
+    width: 194px;
+    height: 52px;
+    margin: 70px auto;
+    text-align: center;
+    color: #fff;
+    border: 2px solid #fff;
+}
+.I-bd-1 a:link {
+    text-decoration: none;
+}
+.I-bd-1 a:visited {
+    text-decoration: none;
+}
+.I-bd-1 a:hover {
+    text-decoration: underline;
+}
+/*------------- 专区内容左侧 ------- end ---------*/
+/*------------- 专区内容右侧 ------- start ---------*/
+.I-floor .I-bd .I-floor-products {
+    float: right;
+    width: 957px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.I-floor-products p {
+    margin: 0 0 10px;
+}
+.I-floor .I-bd .I-floor-products li,.I-floor-products td {
+    position: relative;
+    z-index: 9;
+    float: left;
+    overflow: hidden;
+    width: 238px;
+    /*height: 320px;*/
+    text-align: center;
+    /*border: 1px solid #e5e5e5;*/
+    background-color: #fff;
+}
+.I-floor-products li a, .I-floor-products td a {
+    display: block;
+    color: #737373;
+    padding-top: 10px;
+    border: 1px solid #e5e5e5;
+    background-color: transparent;
+}
+    .I-floor-products li a:link, .I-floor-products td a:link {
+        color: #737373;
+    }
+    .I-floor-products li a:visited, .I-floor-products td a:visited {
+        color: #737373;
+    }
+    .I-floor-products li a:hover, .I-floor-products td a:hover {
+        color: #FF6A00;
+        border: 1px solid #FF6A00;
+    }
+    .I-floor-products li .I-img-box, .I-floor-products td .I-img-box {
+        display: block;
+        overflow: hidden;
+        width: 220px;
+        height: 240px;
+        margin: 0 auto 14px;
+        background-color: #fff;
+    }
+.I-img-box img {
+    height: 240px;
+    width: 220px;
+    display: inline;
+}
+.I-floor-products li .I-product-title, .I-floor-products td .I-product-title {
+    display: inline-block;
+    max-width: 95%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    vertical-align: top;
+    font-size: 12px;
+}
+.I-floor-products li .I-price, .I-floor-products td .I-price {
+    font-size: 14px;
+    font-weight: bold;
+    /*color: #000;*/
+}
+    .I-floor-products li .I-price:hover {
+        color: #FF6A00;
+    }
+.I-price-sign {
+    font-family: arial;
+    margin-right: -4px;
+}
+.I-price-num {
+    font-family: arial,Verdana,Arial;
+}
+/*------------- 专区内容右侧 ------- end ---------*/
+/*--------------------- 专区内容 ------- end -----------------*/
+/*---------------------------------- 专区模板 --------------- end -------------*/
+
+/*---------------------------------- 用户评价 --------------- start -------------*/
+.I-comments {
+    margin-bottom: 40px;
+}
+.I-comments-hd {
+    background: #B4BABF;
+    color: #fff;
+    height: 44px;
+    line-height: 44px;
+    padding: 0 14px;
+}
+.I-comments-hd > a {
+    float: right;
+    color: #fff;
+}
+.I-comments-hd > h4 {
+    margin: 0;
+    line-height: 44px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.I-comments-bd {
+    height: 517px;
+    overflow: hidden;
+    padding: 0 7px;
+    background: #F7F9FA;
+}
+.I-comments-list {
+    margin: 0;
+    padding: 0;
+}
+.I-comments-item {
+    float: left;
+    width: 395px;
+    height: 258px;
+    list-style: none;
+    padding: 24px 25px;
+    overflow: hidden;
+}
+.I-comments-item-hd {
+    margin-bottom: 12px;
+}
+.I-comments-item-bd {
+    font-size: 14px;
+    color: #232628;
+    margin-bottom: 8px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+/*---------------------------------- 用户评价 --------------- end -------------*/
+
+/*---------------------------------- 主内容区 --------------- end ----------------------------------------*/
+

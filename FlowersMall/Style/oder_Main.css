@@ -1,0 +1,196 @@
+﻿
+.dst_table {
+    display: flex;
+    font-size: 14px;
+    margin-left: 250px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    padding: 15px 0;
+    list-style: none;
+    line-height: 20px;
+    border-top: 1px dotted #737373;
+    /*background-color: aqua;*/
+}
+.O-tit {
+    margin-left: 50px;
+}
+.dst_img {
+    width: 200px;
+    height: 100px;
+    line-height: 92px;
+    text-align: center;
+    cursor: pointer;
+    padding: 5px;
+}
+    .dst_img img {
+        width: 100px;
+        height: 100px;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.175);
+    }
+.dst_txt {
+    display: inline-table;
+    width: 300px;
+    height: 100px;
+    line-height: 50px;
+    text-align: left;
+    cursor: pointer;
+}
+.txt_money {
+    color: #FF6A00;
+}
+
+
+.O-contbottom {
+    display: table;
+    width: 1000px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    border: 1px solid #d9d9d9;
+}
+.bottom_1 {
+    margin-top: 10px;
+    margin-left: 50px;
+    font-size: 13px;
+}
+.O-num, .O-price {
+    font-size: 18px;
+    font: bold;
+    color: black;
+}
+.O-price {
+    color: #FF6A00;
+}
+
+.address_1 p {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: center
+}
+.O-ddl {
+    height: 30px;
+    width: 500px;
+    text-align: center;
+}
+.O-textBox {
+    margin-left: 80px;
+    margin-top: 2px;
+    width: 500px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #d9d9d9;
+}
+.O-message {
+    line-height: 70px;
+}
+.textBox5 {
+    margin-left: 10px;
+    height: 50px;
+}
+
+.bottom_but {
+    margin-left: 400px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.but_1 {
+    background-color: sandybrown;
+    width: 150px;
+    height: 40px;
+    color: white;
+    font-family: 黑体;
+    padding: 8px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/*---------------------------------------------------验证滑块--------------------------------------------------------------------------*/
+.O-pay {
+    margin-left: 300px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+    .O-pay i {
+        font-size: 25px;
+    }
+    .outer {
+        position: relative;
+        width: 400px;
+        height: 50px;
+        line-height: 40px;
+        /* border: 1px solid #ccc; */
+        background: #E8E8E8;
+        top: 3px;
+    }
+
+    .outer span,
+    .filter-box,
+    .inner {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .outer span, .filter-box-s {
+        display: block;
+        padding: 0 0 0 36px;
+        width: 100%;
+        height: 100%;
+        color: black;
+        font-size: 18px;
+        line-height: 50px;
+        text-align: center;
+        background: -webkit-gradient(linear,left top,right top,color-stop(0,#4d4d4d),color-stop(.4,#4d4d4d),color-stop(.5,#fff),color-stop(.6,#4d4d4d),color-stop(1,#4d4d4d));
+        -webkit-text-fill-color: transparent;
+        -webkit-animation: slidetounlock 3s infinite;
+        -webkit-background-clip: text;
+        webkit-text-size-adjust: none;
+        z-index: 10;
+    }
+
+@keyframes slidetounlock {
+    from {
+        background-position: -200px 0;
+    }
+
+    to {
+        background-position: 200px 0;
+    }
+}
+
+.filter-box {
+    width: 0;
+    height: 100%;
+    background: #7AC23C;
+    z-index: 9;
+}
+
+.outer.act span {
+    padding: 0 36px 0 0;
+}
+
+.inner {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background: #fff;
+    cursor: pointer;
+    font-family: "宋体";
+    z-index: 10;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    color: #929292;
+}
+
+.outer.act .inner {
+    color: green;
+}
+
+.outer.act span {
+    z-index: 99;
+}
+/*---------------------------------------------------验证滑块--------------------------------------------------------------------------*/
+
+
+
+

@@ -1,0 +1,217 @@
+﻿
+/*---------------------------------- 导航栏 ---------------- start ----------------------------------------*/
+.A-navigation {
+    width: 100%;
+    border-bottom: 3px solid #FF6A00;
+}
+.A-nav {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    max-width: none !important;
+    padding-right: 0;
+    padding-left: 0;
+    font-family: tahoma, arial, 'Hiragino Sans GB', '\5FAE\8F6F\96C5\9ED1', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 40px;
+    display: block;
+    padding: 0 15px;
+    display: flex;
+}
+    .A-nav div {
+        flex-direction: row;
+        width: 200px;
+        height: 40px;
+        text-align: center;
+    }
+        .A-nav div:hover {
+            box-shadow: 0 1px 2px 2px rgba(0, 0, 0, 0.175);
+            /*border: 1px solid rgba(0, 0, 0, 0.175);*/
+            border-radius: 5px;
+            /*圆角的边框*/
+        }
+    .A-nav a:link {
+        color: #737373;
+    }
+    .A-nav a:visited {
+        color: #737373;
+    }
+    .A-nav a:hover {
+        color: #FF6A00;
+    }
+/*---------------------------------- 导航栏 ---------------- end ----------------------------------------*/
+
+/*---------------------------------- 主内容区 ---------------- start ----------------------------------------*/
+.A-content {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+/*--------- 左侧 ----- start ----------*/
+.A-con-left {
+    flex-direction: row;
+    width: 195px;
+    margin-right: 5px;
+    font-family: tahoma, arial, 'Hiragino Sans GB', '\5FAE\8F6F\96C5\9ED1', sans-serif;
+    /*background-color: #FFB6C1;*/
+    border-right: 1px solid #cccccc;
+}
+.A-con-left-tite {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+    font: bold;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    background-color: #FFB6C1;
+}
+.A-con-left-item {
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e9e9e9;
+}
+    .A-con-left-item span {
+        font-size: 16px;
+        font: bold;
+        color: black;
+        margin-left: 10px;
+        line-height: 36px;
+    }
+    .A-con-left-item p {
+        margin-top: 5px;
+        font-size: 14px;
+        margin-left: 48px;
+    }
+    .A-con-left-item a:link {
+        color: #737373;
+    }
+    .A-con-left-item a:visited {
+        color: #737373;
+    }
+    .A-con-left-item a:hover {
+        color: #FF6A00;
+    }
+/*--------- 左侧 ----- end ----------*/
+/*--------- 右侧 ----- start ----------*/
+.A-con-right {
+    flex-direction: row;
+    width: 1000px;
+    /*background-color: red;*/
+}
+.A-con-right-item {
+    padding: 10px 0 10px 150px;
+    line-height: 36px;
+    display: flex;
+    /*background-color: #007FFF;*/
+}
+    .A-con-right-item span {
+        display: inline;
+        float: left;
+        margin-left: -240px;
+        width: 240px;
+        height: 37px;
+        line-height: 37px;
+        text-align: right;
+    }
+.A-name-box,
+.A-flowerLanguage-box,
+.A-classify-box,
+.A-presentation-box,
+.A-price-box,
+.A-materials-box {
+    width: 500px;
+    height: 25px;
+    line-height: 23px;
+    margin-top: 8px;
+}
+/*花语*/
+.A-flowerLanguage-box {
+    height: 50px;
+}
+/*分类*/
+.A-classify-box {
+    width: 150px;
+    margin-right: 5px;
+}
+.A-classify1, .A-classify2 {
+    display: block;
+}
+/*花材*/
+.A-materials-box {
+    width: 300px;
+}
+/*介绍*/
+.A-presentation-box {
+    height: 100px;
+}
+/*展示图片*/
+.A-showImg1, .A-showImg2 {
+    width: 160px;
+    height: 180px;
+    margin-right: 10px;
+}
+/*详情图片*/
+.A-showImg2 {
+    width: 400px;
+    height: 300px;
+}
+.A-fileUpload {
+    margin-top: 8px;
+    height: 30px;
+    width: 200px;
+}
+/*单价*/
+.A-price-box {
+    width: 200px;
+}
+/*提交按钮*/
+.A-but {
+    width: 250px;
+    height: 50px;
+    border-radius: 50px;
+    /*圆角的边框*/
+    background-color: #FF6A00;
+    color: white;
+    font: bold;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 100px;
+    cursor: pointer; /*手 光标形状*/
+}
+/*提示*/
+.A-hint {
+    margin-left: 250px;
+    font: bold;
+    font-size: 30px;
+    color: #FF6A00;
+}
+/*验证*/
+.A-Msg {
+    margin-left: 10px;
+    margin-top: 12px;
+    width: 300px;
+    height: 15px;
+    line-height: 15px;
+    font-size: 11px;
+    color: red;
+    display: none;
+}
+.A-nameMsg2 {
+    display: none;
+}
+
+
+
+
+
+
+/*--------- 右侧 ----- end ----------*/
+/*---------------------------------- 主内容区 ---------------- end ----------------------------------------*/
+
+

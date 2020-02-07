@@ -1,0 +1,211 @@
+﻿body {
+    padding:0px;
+    margin:0px;
+}
+.fing_top {
+    width: 1200px;
+    line-height: 100%;
+    margin: 10px auto;
+    font-size: 27px;
+    font-family: "黑体";
+    color: white;
+    background-color: #107bf8;
+}
+.top_left {
+    margin-top: 15px;
+  margin-left:40px;
+}
+.container {
+    width: 100%;
+    padding-bottom: 150px;
+
+}
+.top {
+    width: 100%;
+    height: 60px;
+    display: inline-block;
+    background-color: #107bf8;
+}
+.container .section-subnav {
+    height: 80px;
+    background-color: #f5f5f5;
+
+}
+.container .section > div {
+    width: 1200px;
+    margin: 0 auto;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.container .section_subnav .subnav_process {
+    padding-top: 14px;
+    text-align: center;
+}
+.subnav_process > li {
+    position: relative;
+    display: inline-block;
+}
+.container .section_subnav .subnav_process > li > div {
+    text-align: center;
+    position: relative;
+    float: left;
+    min-width: 56px;
+    height: 34px;
+    line-height: 30px;
+    vertical-align: middle;
+}
+
+/*.container .section_subnav .subnav_process > li > i {
+    float: left;
+    width: 220px;
+    height: 2px;
+    margin-top: 14px;
+    vertical-align: middle;
+    background-color: green;
+}*/
+
+
+
+/*第一个*/
+.font_1 {
+    width: 508px;
+    height: 48px;
+    font-size: 20px;
+    line-height: 38px;
+    color: dodgerblue;
+}
+.css_font {
+    position: relative;
+    top: 12px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-top: -8px;
+    color: dodgerblue;
+}
+.css_ft1 {
+    position: relative;
+    top: 12px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-top: -8px;
+    color: dodgerblue;
+}
+
+
+
+
+/*/*-------------------*/
+.font_2{
+    width: 508px;
+    height: 48px;
+    font-size: 20px;
+    line-height: 38px;
+    color: gray;
+}
+.css_font1 {
+    position: relative;
+    top: 12px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-top: -8px;
+    color: #a5a5a5;
+}
+
+
+
+.font_3{
+    width: 508px;
+    height: 48px;
+    font-size: 20px;
+    line-height: 38px;
+    color: gray;
+}
+
+.css_font2{
+    position: relative;
+    top: 12px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-top: -8px;
+    color: #a5a5a5;
+}
+
+
+
+
+
+.container .section_subnav .subnav_process > li > div {
+    text-align: center;
+    position: relative;
+    float: left;
+    min-width: 56px;
+    height: 34px;
+    line-height: 30px;
+    vertical-align: middle;
+}
+.container .section_subnav .subnav_process > li > i {
+    float: left;
+    width: 120px;
+    height: 2px;
+    margin-top: 14px;
+    vertical-align: middle;
+ 
+}
+.down {
+    background-color: white;
+    width: 100%;
+    height: 600px;
+ 
+}
+.account_1{
+    width:760px;
+    height:500px;
+  margin-left:30%;
+  background-color:white;
+  display:block;
+
+}
+.account_2 {
+    width: 760px;
+    height: 500px;
+    margin-left: 30%;
+    background-color: white;
+    display: none;
+}
+.nei1 {
+margin-left:30%;
+font-family:"黑体";
+font-size:30px;
+
+}
+.butt1 {
+    background-color: #107bf8;
+    font-size:30px;
+    color:white;
+    font-family:"黑体";
+    border-radius:3px;
+    box-shadow:3px;
+}
+.account_3 {
+    width: 760px;
+    height: 500px;
+    margin-left: 30%;
+    background-color: white;
+    display: none;
+}
+.auto-style2 {
+    /*文本输入框验证*/
+    color: red;
+    font-size:20px;
+}
+
+
+
+

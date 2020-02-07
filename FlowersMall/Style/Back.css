@@ -1,0 +1,138 @@
+﻿
+/*-- 内容--导航栏 start-- */
+.div_HyperLink {
+    height:40px;
+    width: 10%;
+    font-size: 26px;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    /* 文字没有装饰*/
+
+}
+#div_head {
+    box-sizing: border-box;
+    /*为元素设定的宽度和高度决定了元素的边框盒。 就是说，
+        为元素指定的任何内边距和边框都将在已设定的宽度和高度内进行绘制。
+        通过从已设定的宽度和高度分别减去边框和内边距才能得到内容的宽度和高度。
+    */
+    height: 40px;
+    width: 100%;
+    border-bottom: 5px solid darkorange;
+
+}
+    #div_head div {
+
+        height: 40px;
+        left: 13%;
+        width: 100%;
+        position: absolute;
+    }
+
+/*-- 内容--导航栏 end-- */
+
+
+/*---------------------------------- 左边导航栏 --------------------start----------------------------------------*/
+.content_nav {
+    margin-top: 10px;
+    position: absolute;
+    top: 21.5%;
+    left: 13%;
+    margin: 0 0;
+    text-align: left;
+    width: 280px;
+    height: 500px;
+    border: 1px solid gray;
+    overflow: hidden;
+    float: left;
+}
+.left_span {
+    font-size: 22px;
+    font-weight: 600;
+
+}
+
+hr {
+    width: 1000px;
+}
+
+#left_a {
+    position: absolute;
+    margin-bottom: 10px;
+    width: 318px;
+    height: 50px;
+    position:absolute;
+    font-size: 26px;
+    font-weight: 800;
+    text-align: left;
+    background-color: lightpink;
+    background-size: contain;
+    border-bottom: 1px solid gray;
+}
+
+.ul_li {
+    padding: 0px 45px;
+    margin: 6px 0;
+}
+
+#div_li {
+    width: 75%;
+    top: 45px;
+    position: absolute;
+}
+
+    #div_li ul {
+        padding: 0px 15px;
+        margin-top:5px;
+    }
+
+
+.iconfont {
+    font-size: 26px;
+    font-weight: 600;
+}
+/*---------------------------------- 左边导航栏 --------------------end----------------------------------------*/
+
+a {
+    text-decoration: none; /*消除下划线*/
+    cursor: pointer; /*手 光标形状*/
+}
+
+/*---------------------------------- 中间内容--------------------start----------------------------------------*/
+#content {
+    margin-top: 10px;
+    float: left;
+    width: 100%;
+    min-width: 1200px;
+    height: 500px;
+}
+
+#content_mid {
+    position: absolute;
+    float: left;
+    width: 45%;
+    left: 30%;
+    height: 500px;
+    border: 1px solid gray;
+    overflow: hidden;
+    /*溢出部分切除*/
+}
+#mid_content_p {
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    text-align: left;
+    background-color: #eac9c9;
+    padding: 10px 30px;
+    box-sizing: border-box;
+}
+#mid_content_GV {
+    width: 100%;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+#M-bottom
+{
+    height:500px;
+}
+/*---------------------------------- 中间内容--------------------end----------------------------------------*/

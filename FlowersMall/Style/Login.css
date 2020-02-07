@@ -1,0 +1,165 @@
+﻿
+/*外部大框架 背景*/
+.Main {
+    width: 100%;
+    min-width: 1200px;
+    height: 700px;
+    background-image: url(../Images/素材/样式/Login.jpg);
+    padding-top: 3%;
+}
+/*登入框*/
+.Main-Login {
+    position: relative;
+    width: 438px;
+    height: 400px;
+    background-color: white;
+    margin-left: 64%;
+    margin-top: 20px;
+}
+/*登入框的标题*/
+
+.Login-tabs {
+    font-size: 24px;
+    font-family: "黑体";
+    border-bottom: 5px solid orange;
+}
+/*登入框的内容*/
+.Login-user {
+    width: 438px;
+    height: 466px;
+}
+
+/*用户文本框*/
+.Login-yh {
+    margin-top:50px;
+    margin-left:60px;
+    width:300px;
+    border:1px solid gray;
+}
+/*文本输入框*/
+.Login-shuru {
+    /*文本输入框*/
+    position: relative; /*相对父元素窗口定位*/
+    margin: 10px 10px 5px 25px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    width: 82%;
+    height: 33px;
+    outline: none;
+    overflow: visible; /*溢出不被剪切*/
+    z-index: 7;
+    left: 0;
+    top: 0;
+}
+/*密码文本框*/
+.Login-yh1 {
+    margin-top: 40px;
+    margin-left: 60px;
+    width: 300px;
+    border: 1px solid gray;
+}
+/*按钮*/
+.loginBut { /*按钮版面*/
+    position: relative; /*相对父元素窗口定位*/
+    /*margin: 0% 30% 10% 30%;*/
+    overflow: visible; /*溢出不被剪切*/
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-bottom: 48px;
+}
+.loginBut1, .loginBut2 {
+    border-radius: 50px;
+    /*圆角的边框*/
+    background-color: orangered;
+    width: 270px;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+    cursor: pointer; /*手 光标形状*/
+}
+.loginBut2 {
+    margin-left: 0px;
+}
+/*底下*/
+.bottom {
+    position: relative;
+    font-family: "黑体";
+    padding-left: 150px;
+    color: black;
+    font-size: 20px;
+    background-color: #cfcfcf;
+}
+/*验证*/
+.Login-validator { /*文本输入框验证*/
+    position: absolute;
+    color: red;
+    font-size: medium;
+    right: 2%;
+    line-height: 33px; /*设置行高，必须与div的高度相同，使文字垂直居中*/
+}
+
+
+/*------------------------------    注册页-----------------------------------------------------------*/
+/*注册框的标题*/
+.Reistanst-tabs1 {
+    font-size: 25px;
+    font-family: "黑体";
+    padding-left: 15px;
+}
+/*注册用户文本框*/
+.Reistanst-yh {
+    margin-top: 10px;
+    margin-left: 60px;
+    width: 300px;
+    border: 1px solid gray;
+}
+/*底下*/
+.Reistanst-bottom {
+    position: relative;
+    margin-top: 10px;
+    font-family: "黑体";
+    padding-left: 150px;
+    color: black;
+    font-size: 20px;
+    background-color: #cfcfcf;
+}
+.Reistanst-shuru {
+    /*文本输入框*/
+    position: relative; /*相对父元素窗口定位*/
+    margin: 10px 10px 5px 25px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    width: 82%;
+    height: 33px;
+    outline: none;
+    overflow: visible; /*溢出不被剪切*/
+    z-index: 7;
+    left: 0px;
+    top: 0px;
+}
+/*密码文本框*/
+.Reistanst-yh1 {
+    margin-top: 10px;
+    margin-left: 60px;
+    width: 300px;
+    border: 1px solid gray;
+}
+/*按钮*/
+.ReistBut { /*按钮版面*/
+    position: relative; /*相对父元素窗口定位*/
+    /*margin: 0% 30% 10% 30%;*/
+    overflow: visible; /*溢出不被剪切*/
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 94px;
+    text-align: center;
+}
+.Main-Registanst {
+    position: relative;
+    width: 438px;
+    height: 490px;
+    background-color: white;
+    margin-left: 64%;
+    margin-top: 20px;
+}
