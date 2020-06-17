@@ -22,7 +22,7 @@ public partial class Front_U_personall : System.Web.UI.Page
                 //Session["USERID"].ToString();
                 string username = Session["USERName"].ToString().Trim();
                 //string username = Request.QueryString["id"];
-                string GetCon = "Data Source=127.0.0.1;Initial Catalog=Flower_Shop;Integrated Security=True";
+                string GetCon = "data source=localhost;database=Flower_Shop;Integrated Security=True;Pooling=False";
                 SqlConnection con = new SqlConnection(GetCon);
                 con.Open();
                 string str_con = "select *from User_Table where u_name='" + username + "'";
