@@ -3,7 +3,7 @@
 
 param($installPath, $toolsPath, $package, $project)
 
-$roslynSubFolder = 'roslyn'
+$roslynSubFolder = 'rolyn'
 
 if ($project -eq $null) {
     $project = Get-Project
